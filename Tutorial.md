@@ -1,21 +1,54 @@
-# Bitfinity EVM - Ethereum Virtual Machine on the Internet Computer
+## Token
+![GEITAAmWYAAnDeg](https://github.com/Tevin-Isaac/Introduction-to-Bitfinity-EVM/assets/81568615/f89a5a3e-8a2e-4847-a731-211595026607)
 
-Welcome to Bitfinity, the next-generation Layer 2 solution for the Internet Computer blockchain! Bitfinity EVM (Ethereum Virtual Machine) empowers developers with a scalable, cost-effective, and Ethereum-compatible environment for deploying Solidity smart contracts on the Internet Computer blockchain.
+🔍 In cryptocurrency, a token is a digital unit of value, on a blockchain.
 
-Bitfinity supports minting testnet tokens in a number of ways.
+It can represent ownership of a decentralized application, digital assets, real world assets, access rights, specific functionality, and much more.
+
+If it has value, it can have a token. 
+
+🏦 In the past, we’ve relied on institutions like banks or governments to keep detailed records when value is transferred.
+
+When you transfer or sell stock, you do it through a bank. When you transfer ownership of a vehicle or real estate, you do so with government records. 
+
+✨ When that value is held on a blockchain instead, tokens are the units that represent it.
+
+Rather than an institution like a bank or government maintaining those records, the blockchain does, & your token is like your deed, or certificate of ownership. 
+
+🧠 Imagine having a key to a vast digital kingdom!
+
+* Utility tokens are just that - they provide access to services or features in a project's ecosystem. They're the gateway to exciting possibilities in dapps & beyond. 🙌 6/14
+
+Here are some examples of utility tokens:
+
+The *ICP token* is a utility token used by the Internet Computer. It serves several functions within the protocol:
+* Governance: ICP holders can stake their tokens to participate in the governance of the Internet Computer. This allows them to vote on or submit governance proposals and earn voting rewards.
+* Resource Payment: ICP can be converted into cycles, which are used to power computation, communication, and storage costs of canisters (akin to smart contracts). This is part of a "reverse gas" model, where smart contracts pay for their own computation. They must be pre-charged with cycles to run, similar to how an electric car must be pre-charged with electricity to drive.
+* Node Provider Payment: ICP tokens are used to remunerate node providers who operate machines running the Internet Computer protocol.
+Participation in DAOs: ICP can be used to participate in token swaps of decentralized autonomous organizations (DAOs) on the Internet Computer.
+* Medium of Exchange: ICP can also be used as a medium of exchange to pay for goods and services such as NFTs, subscriptions, etc.
+The Internet Computer maintains a floating conversion rate so that 1 Trillion cycles costs approximately 1 IMF SDR in ICP. This ensures that end-users of dapps, systems, and services can interact with them over the web without needing tokens to pay for the computations that they initiate.
+ 
+Read more about the tokenomics of the Internet computer here:https://internetcomputer.org/how-it-works/tokenomics
+
+
+ * 🏦 Security tokens are like digital stocks or bonds.
+
+They represent ownership in assets (like real estate) or earnings (like dividends), & are subject to regulation, just like traditional securities.💲 
+
+
+
+## How to mint your tokens
+The Bitfinity Testnet supports minting testnet tokens which users can pay for gas fees when deploying their dapps.
+
+We support minting testnet tokens in a number of ways.
 
 * Discord
 * Web Interface
-
-
-![Screenshot from 2024-01-18 04-03-18](https://github.com/Tevin-Isaac/Introduction-to-Bitfinity-EVM/assets/81568615/f107e812-19e8-43b2-9ab2-486d0ee6c7e9)
-
-dd 
 * JSON RPC
 * Internet Computer Interface
 
-
-
+![Screenshot from 2024-01-18 04-03-18](https://github.com/Tevin-Isaac/Introduction-to-Bitfinity-EVM/assets/81568615/f107e812-19e8-43b2-9ab2-486d0ee6c7e9)
 
 
 ## Installation
@@ -33,6 +66,8 @@ yarn install
 ![Screenshot from 2024-01-18 03-02-07](https://github.com/Tevin-Isaac/Introduction-to-Bitfinity-EVM/assets/81568615/ecd033ac-c104-4d39-a01b-c689b9821eea)
 0)
 ![Screenshot from 2024-01-18 03-02-37](https://github.com/Tevin-Isaac/Introduction-to-Bitfinity-EVM/assets/81568615/f3e62629-7bbf-4aac-9ce4-db06bfd73099)
+
+
 ## Deploying our  ERC-20 Token 
 The ERC-20 example is about a native Watermelon token 🍉. You can exchange them into actual Watermelons 🍉🍉🍉. The total supply is 1000000, the minter is the contract deployer address, and the decimals are 0 (One token --> One watermelon).
 
